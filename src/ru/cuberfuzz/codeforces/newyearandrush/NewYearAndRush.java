@@ -8,6 +8,7 @@ public class NewYearAndRush {
     private final LocalTime beginTime = LocalTime.of(20, 0);
 
     public void solutions(int tasks, int minutes) {
+//    public void solutions() { // - для CODEFORCES
 //        Scanner scanner = new Scanner(System.in);
 //        int tasks = scanner.nextInt();
 //        int minutes = scanner.nextInt();
@@ -29,6 +30,8 @@ public class NewYearAndRush {
 
     public static void main(String[] args) {
         var ny = new NewYearAndRush();
+//        ny.solutions(); // - для CODEFORCES
         ny.solutions(10, 1);
+
     }
 }
